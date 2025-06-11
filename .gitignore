@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Logs & outputs
+*.log
+*.out
+*.tmp
+*.bak
+
+# Checkpoints (optional if you push them with LFS)
+checkpoints/
+*.ckpt
+
+# Model outputs & intermediate data
+results/
+outputs/
+runs/
+*.onnx
+*.tflite
+
+# Dataset folders (optional)
+datasets/
+data/
+*.csv
+
+# VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
